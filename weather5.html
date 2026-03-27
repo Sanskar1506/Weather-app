@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Weather App</title>
+
+<link rel="stylesheet" href="style5.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<h2>Weather App</h2>
+
+<div class="weather-input">
+
+<input type="text" id="city_input" placeholder="Enter city name">
+
+<button id="searchBtn">
+<i class="fa fa-search"></i> Search
+</button>
+
+<button id="locationBtn">
+<i class="fa fa-location-crosshairs"></i> Current Location
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="weather-data">
+
+
+<div class="weather-left">
+
+<div class="card current-weather"></div>
+
+<div class="card">
+
+<h2>5 Days Forecast</h2>
+
+<div class="day-forecast"></div>
+
+</div>
+
+</div>
+
+
+
+<div class="weather-right">
+
+<h2>Today's Highlights</h2>
+
+<div class="highlights">
+
+<div class="card">
+<p>Air Quality</p>
+<h2 id="aqiVal">--</h2>
+</div>
+
+<div class="card">
+<p>Sunrise</p>
+<h2 id="sunriseVal">--</h2>
+</div>
+
+<div class="card">
+<p>Sunset</p>
+<h2 id="sunsetVal">--</h2>
+</div>
+
+<div class="card">
+<p>Humidity</p>
+<h2 id="humidityVal">--</h2>
+</div>
+
+<div class="card">
+<p>Pressure</p>
+<h2 id="pressureVal">--</h2>
+</div>
+
+<div class="card">
+<p>Visibility</p>
+<h2 id="visibilityVal">--</h2>
+</div>
+
+<div class="card">
+<p>Wind Speed</p>
+<h2 id="windSpeedVal">--</h2>
+</div>
+
+<div class="card">
+<p>Feels Like</p>
+<h2 id="feelsVal">--</h2>
+</div>
+
+</div>
+
+
+<h2>Hourly Forecast</h2>
+
+<div class="hourly-forecast"></div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<script src="script5.js"></script>
+
+</body>
+</html>
